@@ -79,7 +79,7 @@ ms.locfileid: "53242551"
  類別和結構可以使用一或多個型別參數加以定義。 當用戶端程式碼建立型別的執行個體時，便會提供型別。 例如， <xref:System.Collections.Generic> 命名空間中的 <xref:System.Collections.Generic.List%601> 類別是以一個型別參數來定義。 用戶端程式碼會建立 `List<string>` 或 `List<int>` 的執行個體，以指定清單將保留的型別。 如需詳細資訊，請參閱[泛型](../../../csharp/programming-guide/generics/index.md)。  
   
 ### <a name="static-types"></a>靜態型別  
- 類別 (而不是結構) 可以宣告為[靜態](../../../csharp/language-reference/keywords/static.md)。 靜態類別僅可以包含靜態成員，且無法使用新的關鍵字具現化。 類別的其中一個複本會在程式載入時載入至記憶體，其成員會透過類別名稱存取。 類別和結構都可以包含靜態成員。 如需詳細資訊，請參閱[靜態類別和靜態類別成員](../../../csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members.md)。  
+ 類別 (而不是結構) 可以宣告為[靜態](../../../csharp/language-reference/keywords/static.md)。 靜態類別僅可以包含靜態成員，且無法使用`new`關鍵字具現化。 類別的其中一個複本會在程式載入時載入至記憶體，其成員會透過類別名稱存取。 類別和結構都可以包含靜態成員。 如需詳細資訊，請參閱[靜態類別和靜態類別成員](../../../csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members.md)。  
   
 ### <a name="nested-types"></a>巢狀類型  
  類別或結構能以巢狀方式置於另一個類別或結構內。 如需詳細資訊，請參閱[巢狀型別](../../../csharp/programming-guide/classes-and-structs/nested-types.md)。  
